@@ -315,12 +315,12 @@
   border: 0.1px solid #f8f8f8;
   background-color: rgb(247, 247, 247);
   transition: width 0.5s, heigth 0.5s;
+  border-radius: 5px;
 }
 .products-search img:hover {
   width: 23px;
   height: 23px;
   cursor: pointer;
-  border-radius: 5px;
 }
 .products-search input {
   border: 0.01px solid #e7e5e5;
