@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header and navbar -->
+      <div class="header-container">
+        <header>
+          <nav>
+            <label for="toggle" class="hamburgur">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+
+            <div class="nav-container">
+              <div class="nav-profile">
+                <div class="nav-profile-icon">
+                  <img src="assets/instagram.png" width="80%" height="80%" />
+                </div>
+                <div class="nav-profile-text">
+                  <div class="nav-profile-text-head">INC</div>
+                  <div class="nav-profile-text-head-text">InnovateHub</div>
+                </div>
+                <div class="nav-profile-photo">
+                  <img src="assets/user.png" width="70%" height="70%" />
+                </div>
+              </div>
+
+              <div class="nav-teams">
+                <div class="nav-team-design">
+                  <div class="nav-teams-icon">
+                    <img src="assets/pen-tool.png" width="60%" height="60%" />
+                  </div>
+                  <div class="nav-teams-text">Design Team</div>
+                  <div class="nav-teams-photo">
+                    <div class="nav-teams-image">
+                      <img src="assets/close.png" width="15%" height="15%" />
+                      <span style="font-family: Arial, Helvetica, sans-serif"
+                        >+</span
+                      >
+                      <span style="font-family: Arial, Helvetica, sans-serif"
+                        >1</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="nav-team-marketing">
+                  <div class="nav-teams-icon">
+                    <img src="assets/mic.png" width="60%" height="60%" />
+                  </div>
+                  <div class="nav-teams-text">Marketing Team</div>
+                  <div class="nav-teams-photo">
+                    <div class="nav-teams-image">
+                      <img src="assets/close.png" width="15%" height="15%" />
+                      <span style="font-family: Arial, Helvetica, sans-serif"
+                        >+</span
+                      >
+                      <span style="font-family: Arial, Helvetica, sans-serif"
+                        >2</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="nav-team-design">
+                  <div class="nav-teams-icon">
+                    <img src="assets/braces.png" width="60%" height="60%" />
+                  </div>
+                  <div class="nav-teams-text">Development Team</div>
+                  <div class="nav-teams-photo">
+                    <div class="nav-teams-image">
+                      <img src="assets/close.png" width="15%" height="15%" />
+                      <span style="font-family: Arial, Helvetica, sans-serif"
+                        >+</span
+                      >
+                      <span style="font-family: Arial, Helvetica, sans-serif"
+                        >3</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="nav-team-create">
+                  <div class="nav-teams-icon">
+                    <img src="assets/more.png" width="60%" height="60%" />
+                  </div>
+                  <div class="nav-teams-text">Create a Team</div>
+                </div>
+              </div>
+
+              <div class="nav-folders">
+                <div class="nav-folder-head">
+                  <div>FOLDERS</div>
+                  <div>+</div>
+                </div>
+
+                <div class="nav-folder-products">
+                  <div class="nav-folder-products-image">
+                    <img src="assets/folder.png" width="30%" height="100%" />
+                  </div>
+                  <div class="nav-folder-products-text">Products</div>
+                  <div class="nav-folder-products-icon">
+                    <img
+                      src="assets/downward-arrow.png"
+                      width="70%"
+                      height="70%"
+                      id="drop-down-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="nav-folder-products-sub" id="display-products">
+                  <div>Roadmap</div>
+                  <div>FeedBack</div>
+                  <div>Performance</div>
+                  <div>Team</div>
+                  <div>Analytics</div>
+                  <div class="nav-folder-products-sub-add">
+                    <div class="nav-folder-products-sub-add-icon">
+                      <img src="assets/more.png" width="20px" height="20px" />
+                    </div>
+                    <div class="nav-folder-products-sub-add-text">
+                      Add new sub
+                    </div>
+                  </div>
+                </div>
+
+                <div class="nav-folder-products">
+                  <div class="nav-folder-products-image">
+                    <img src="assets/folder.png" width="30%" height="100%" />
+                  </div>
+                  <div class="nav-folder-products-text">Sales</div>
+                  <div class="nav-folder-products-icon">
+                    <img
+                      src="assets/downward-arrow.png"
+                      width="70%"
+                      height="70%"
+                      id="sales-drop-down-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="nav-folder-products-sub" id="display-sales">
+                  <div>Roadmap</div>
+                  <div>FeedBack</div>
+                  <div>Performance</div>
+                  <div>Team</div>
+                  <div>Analytics</div>
+                  <div class="nav-folder-products-sub-add">
+                    <div class="nav-folder-products-sub-add-icon">
+                      <img src="assets/more.png" width="20px" height="20px" />
+                    </div>
+                    <div class="nav-folder-products-sub-add-text">
+                      Add new sub
+                    </div>
+                  </div>
+                </div>
+
+                <div class="nav-folder-products">
+                  <div class="nav-folder-products-image">
+                    <img src="assets/folder.png" width="30%" height="100%" />
+                  </div>
+                  <div class="nav-folder-products-text">Design</div>
+                  <div class="nav-folder-products-icon">
+                    <img
+                      src="assets/downward-arrow.png"
+                      width="70%"
+                      height="70%"
+                      id="design-drop-down-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="nav-folder-products-sub" id="display-design">
+                  <div>Roadmap</div>
+                  <div>FeedBack</div>
+                  <div>Performance</div>
+                  <div>Team</div>
+                  <div>Analytics</div>
+                  <div class="nav-folder-products-sub-add">
+                    <div class="nav-folder-products-sub-add-icon">
+                      <img src="assets/more.png" width="20px" height="20px" />
+                    </div>
+                    <div class="nav-folder-products-sub-add-text">
+                      Add new sub
+                    </div>
+                  </div>
+                </div>
+
+                <div class="nav-folder-products">
+                  <div class="nav-folder-products-image">
+                    <img src="assets/folder.png" width="30%" height="100%" />
+                  </div>
+                  <div class="nav-folder-products-text">Office</div>
+                  <div class="nav-folder-products-icon">
+                    <img
+                      src="assets/downward-arrow.png"
+                      width="70%"
+                      height="70%"
+                      id="office-drop-down-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="nav-folder-products-sub" id="display-office">
+                  <div>Roadmap</div>
+                  <div>FeedBack</div>
+                  <div>Performance</div>
+                  <div>Team</div>
+                  <div>Analytics</div>
+                  <div class="nav-folder-products-sub-add">
+                    <div class="nav-folder-products-sub-add-icon">
+                      <img src="assets/more.png" width="20px" height="20px" />
+                    </div>
+                    <div class="nav-folder-products-sub-add-text">
+                      Add new sub
+                    </div>
+                  </div>
+                </div>
+
+                <div class="nav-folder-products">
+                  <div class="nav-folder-products-image">
+                    <img src="assets/folder.png" width="30%" height="100%" />
+                  </div>
+                  <div class="nav-folder-products-text">Legal</div>
+                  <div class="nav-folder-products-icon">
+                    <img
+                      src="assets/downward-arrow.png"
+                      width="70%"
+                      height="70%"
+                      id="legal-drop-down-icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="nav-folder-products-sub" id="display-legal">
+                  <div>Roadmap</div>
+                  <div>FeedBack</div>
+                  <div>Performance</div>
+                  <div>Team</div>
+                  <div>Analytics</div>
+                  <div class="nav-folder-products-sub-add">
+                    <div class="nav-folder-products-sub-add-icon">
+                      <img src="assets/more.png" width="20px" height="20px" />
+                    </div>
+                    <div class="nav-folder-products-sub-add-text">
+                      Add new sub
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="nav-footer">
+                <div class="nav-footer-invite">
+                  <div class="nav-footer-invite-icon">
+                    <img src="assets/add-user.png" width="35%" height="40%" />
+                  </div>
+                  <div class="nav-footer-invite-text">Invite teammates</div>
+                </div>
+
+                <div class="nav-footer-invite">
+                  <div class="nav-footer-invite-icon">
+                    <img src="assets/question.png" width="35%" height="40%" />
+                  </div>
+                  <div class="nav-footer-invite-text">Help and first steps</div>
+                </div>
+
+                <div class="nav-footer-trial">
+                  <div class="nav-footer-trial-icon">
+                    <img
+                      src="assets/question (1).png"
+                      width="35%"
+                      height="40%"
+                    />
+                  </div>
+                  <div class="nav-footer-trial-text">days left on trial</div>
+                  <div class="nav-footer-trial-button">
+                    <button>Add billing</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+      <!-- header and navbar end-->
+
+      <!-- Data container -->
+      <div class="data-container">
+        <section class="products-head">
+          <div class="product-text"><span>Products</span></div>
+          <div class="products-search">
+            <img src="assets/search.png" width="20px" height="20px" />
+            <input placeholder="search here by Brand name" id="user-input" />
+            <img src="assets/chat.png" width="20px" height="20px"/>
+            <img src="assets/settings.png" width="20px" height="20px"/>
+          </div>
+        </section>
+        <section class="products-tasks">
+          <div class="products-tasks-categories">
+            <div class="all-tasks">
+              <img src="assets/hashtag.png" width="15px" height="15px" />
+              <span>AllTasks</span>
+              <img src="assets/downward-arrow.png" width="15px" height="15px" />
+            </div>
+            <div class="desk all-tasks">
+              <span>Desk</span>
+              <img src="assets/downward-arrow.png" width="15px" height="15px" />
+            </div>
+            <div class="desk all-tasks">
+              <span>Tags</span>
+              <img src="assets/downward-arrow.png" width="15px" height="15px" />
+            </div>
+            <div class="desk all-tasks">
+              <span>Sort</span>
+              <img src="assets/downward-arrow.png" width="15px" height="15px" />
+            </div>
+            <div class="desk all-tasks">
+              <span>Filter</span>
+              <img src="assets/downward-arrow.png" width="15px" height="15px" />
+            </div>
+          </div>
+          <div class="Products-tasks-sessions">
+            <div class="desk all-tasks">
+              <img src="assets/more.png" width="15px" height="15px" />
+              <span>Meetings</span>
+            </div>
+            <div class="desk all-tasks">
+              <img src="assets/service.png" width="15px" height="15px" />
+              <span>Import/Export</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Table section -->
+        <section class="products-table">
+          <table id="table"></table>
+        </section>
+        <!-- Table section end-->
+
+        <section class="section-footer">
+          <div class="footer-container">
+            <div>
+              <img src="assets/check.png" width="13px" height="13px" />
+              <span>Selected</span>
+            </div>
+            <div>
+              <img src="assets/archive.png" width="13px" height="13px" />
+              <span>Archive</span>
+            </div>
+            <div>
+              <img src="assets/delete.png" width="13px" height="13px" />
+              <span>Delete</span>
+            </div>
+            <div>
+              <span>More</span>
+              <img src="assets/expand-button.png" width="13px" height="13px" />
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Data container end-->
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
