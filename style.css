@@ -349,6 +349,10 @@
     font-size: 12px;
     text-align: center;
   }
+  .hamburgur {
+    font-size: 25px;
+    margin-top: 7px;
+  }
 }
 @media screen and (max-width: 700px) {
   .products-tasks {
@@ -362,6 +366,10 @@
   .products-tasks {
     width: 100%;
     font-size: 10px;
+  }
+  .hamburgur {
+    font-size: 20px;
+    margin-top: 8px;
   }
 }
 .products-tasks-categories {
