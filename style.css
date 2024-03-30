@@ -334,8 +334,10 @@
 }
 @media screen and (max-width: 840px) {
   .products-tasks {
-    font-size: 12px;
     text-align: center;
+  }
+  .all-tasks{
+    font-size: 11px;
   }
   .hamburgur {
     font-size: 25px;
@@ -405,6 +407,7 @@
   }
   .products-tasks {
     width: 70%;
+    font-size: 14px;
     margin: auto;
   }
   .products-table {
@@ -426,7 +429,7 @@
 }
 @media screen and (max-width: 600px) {
   .products-table {
-    font-size: 7px;
+    font-size: 6px;
   }
   .product-text {
     width: auto;
@@ -497,4 +500,19 @@ td {
   .products-table {
     width: 97%;
   }
+}
+@media screen and (max-width:1000px) {
+  .products-tasks {
+    width: 80%;
+  }
+}
+@media screen and (max-width:700px) {
+  .products-tasks-categories{
+    width: 100%;
+    justify-content: center;
+  }
+  .Products-tasks-sessions{
+    width: 100%;
+    justify-content: center;
+  }  
 }
